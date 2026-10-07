@@ -22,7 +22,8 @@
   </head>
   <body>
     <header>
-      <a href="./index.html" class="logo"> Web<span>Studio</span> </a>
+      <div class="container">
+        <a class="logo" href="./index.html">Web<span>Studio</span></a>
       <nav>
         <ul>
           <li><a href="#studio">Studio</a></li>
@@ -35,16 +36,19 @@
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul>
+    </div>
     </header>
-
     <main>
       <section class="hero">
+        <div class="container">
         <h1>Effective Solutions for Your Business</h1>
         <button type="button" class="order-service">Order Service</button>
+        </div>
       </section>
 
-      <section class="our-benefits">
-        <h2>Our Benefits</h2>
+      <section class="section our-benefits">
+        <div class="container">
+        <h2 class="visually-hidden">Our Benefits</h2>
         <ul>
           <li>
             <h3>Strategy</h3>
@@ -75,9 +79,11 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
 
-      <section class="our-team">
+      <section class="section our-team">
+        <div class="container">
         <h2>Our Team</h2>
         <ul>
           <li>
@@ -86,8 +92,10 @@
               alt="Mark Guerrero Product Designer"
               width="264"
             />
+            <div>
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
+            </div>
           </li>
           <li>
             <img
@@ -95,8 +103,10 @@
               alt="Tom Ford Frontend Developer"
               width="264"
             />
+            <div>
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
+            </div>
           </li>
           <li>
             <img
@@ -104,8 +114,10 @@
               alt="Camila Garcia Marketing"
               width="264"
             />
+            <div>
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
+            </div>
           </li>
           <li>
             <img
@@ -113,74 +125,93 @@
               alt="Daniel Wilson UI Designer"
               width="264"
             />
+            <div>
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
-          </li>
+            </div>
+          </li> 
         </ul>
+        </div>
       </section>
 
-      <section id="portfolio">
+      <section class="section" id="portfolio">
+        <div class="container">
         <h2 class="section-title">Our Portfolio</h2>
         <ul class="portfolio-list">
           <li class="portfolio-item">
-            <img src="./images/portfolio1.jpeg" width="300" alt="Barking App" />
-            <h3 class="portfolio-title">Barking App</h3>
+            <img src="./images/portfolio1.jpeg" width="360" alt="Banking App" />
+            <div class="portfolio-card-content">
+            <h3 class="portfolio-title">Banking App</h3>
             <p>App</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
               src="./images/portfolio2.jpeg"
-              width="300"
+              width="360"
               alt="Cashless Payment"
             />
+              <div class="portfolio-card-content">
             <h3 class="portfolio-title">Cashless Payment</h3>
             <p>Marketing</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
               src="./images/portfolio3.jpeg"
-              width="300"
+              width="360"
               alt="Meditation App"
             />
+            <div class="portfolio-card-content">
             <h3 class="portfolio-title">Meditation App</h3>
             <p>App</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
               src="./images/portfolio4.jpeg"
-              width="300"
+              width="360"
               alt="Taxi Service"
             />
+            <div class="portfolio-card-content">
             <h3 class="portfolio-title">Taxi Service</h3>
             <p>Marketing</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
               src="./images/portfolio5.jpeg"
-              width="300"
+              width="360"
               alt="Screen Illustrations"
             />
+            <div class="portfolio-card-content">
             <h3 class="portfolio-title">Screen Illustrations</h3>
             <p>Design</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
               src="./images/portfolio6.jpeg"
-              width="300"
+              width="360"
               alt="Online Courses"
             />
+            <div class="portfolio-card-content">
             <h3 class="portfolio-title">Online Courses</h3>
             <p>Marketing</p>
+            </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer>
+      <div class="container">
       <a href="./index.html" class="logo">Web<span>Studio</span></a>
-      <p>
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
